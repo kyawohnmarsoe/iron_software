@@ -195,6 +195,18 @@ span.coming-soon{
 background-color: #f73b77;
 
 }
+.sign-up-btn span::after{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid transparent;
+    border-right: 0;
+    border-bottom: 0.3em solid transparent;
+	border-left: 0.3em solid;
+    position: absolute;
+    top: 28px;
+}
 
 .input-group>.form-control.sign-up-input::placeholder {
     opacity: 1;
@@ -300,6 +312,9 @@ h3{
      }
      .input-group.footer>.form-control.sign-up-input{
           width: 93%;
+     }
+     .input-group-text.sign-up-btn{
+         width: auto;
      }
      .coming-soon-badge {
          width: 100px;
