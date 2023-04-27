@@ -120,9 +120,44 @@ p{
     line-height: 13px;
     text-transform: uppercase;
 }
+.nav-link:hover{
+    color: var(--red-pink);
+}
 
 .navbar-brand{
     padding-top: 0;
+}
+
+
+.dropdown.custom{
+    position: static;
+}
+.navbar{
+    position: relative;
+}
+.custom .dropdown-menu{ 
+
+   left:0;
+   right: 0;
+   background-color: #141414;
+  
+}
+.custom .dropdown-item{
+  font-family: "Gotham-medium";
+    color:var(--white);
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+.custom .dropdown-item:hover{
+ font-family: "Gotham-medium";
+    color:var(--red-pink);
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    background-color: transparent;
 }
 .iron{
     position: relative;
@@ -298,6 +333,7 @@ h3{
     .pdf-illustration{
         display: none;
     }
+
  }
 
  @media (max-width: 767.98px) { 
