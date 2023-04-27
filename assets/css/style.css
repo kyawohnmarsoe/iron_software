@@ -2,16 +2,13 @@
 @font-face {
     font-family: 'Gotham-light';
     src: url(../font/gotham-light-webfont.woff2);
+    font-display: block;
 }
 
 @font-face {
     font-family: 'Gotham-medium';
     src: url(../font/gotham-medium-webfont.woff2);
-}
-
-@font-face {
-    font-family: 'Monaco';
-    src: url(../font/Monaco.woff);
+    font-display: block;
 }
 
 :root {
@@ -251,6 +248,14 @@ display: flex;
 .iron-pdf-icon{
     max-width: 112px;
 }
+ .to-observe {
+            opacity: 0;
+            transition: all 2s ease-out;
+        }
+
+        .show {
+            opacity: 1;
+        }
 @media (min-width: 1400px){
     .container{
         max-width: 1200px;
